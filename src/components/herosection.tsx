@@ -14,7 +14,8 @@ export default function HeroSection({ className = "" }: HeroSectionProps) {
         <TextType
           text={['Welcome to \n Project AngelWing']}
           as="h1"
-          className="text-4xl md:text-6xl font-bold mb-6 text-white whitespace-pre-line"
+          className="text-6xl md:text-9xl font-bold font-vt323 mb-6 text-white whitespace-pre-line"
+          style={{ fontFamily: '"VT323", monospace' }}
           typingSpeed={70}
           deletingSpeed={50}
           showCursor={true}
@@ -23,8 +24,8 @@ export default function HeroSection({ className = "" }: HeroSectionProps) {
           loop={false}
           cursorCharacter={"_"}
         />
-        
-        <p className="text-lg md:text-xl mt-4 opacity-80 max-w-2xl mx-auto text-white">
+
+        <p className="text-lg md:text-xl mt-4 opacity-80 max-w-2xl mx-auto font-mono text-white">
           The Pinnacle of AeroSpace Innovation
         </p>
         
