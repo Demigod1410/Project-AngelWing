@@ -25,17 +25,10 @@ export default function HeroSection({ className = "" }: HeroSectionProps) {
         />
         
         <p className="text-lg md:text-xl mt-4 opacity-80 max-w-2xl mx-auto text-white">
-          Transforming ideas into digital realities
+          The Pinnacle of AeroSpace Innovation
         </p>
         
-        <div className="mt-10">
-          <a 
-            href="#explore" 
-            className="rounded-full border border-solid border-white bg-transparent text-white hover:bg-white/10 px-6 py-3 font-medium transition-colors"
-          >
-            Explore Now
-          </a>
-        </div>
+        
       </div>
     </div>
   );
